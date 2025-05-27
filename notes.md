@@ -1,0 +1,2 @@
+// transport specify the blockchain wallet we are getting connected to , if its specified window.ethereum it means metamask
+// walletClient.requestAddresses() requests addresses from the wallet that are connected            
