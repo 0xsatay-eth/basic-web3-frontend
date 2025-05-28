@@ -1,3 +1,5 @@
+import { Abi } from "viem";
+
 export const contractAddress  = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
 // export const conversions = {
 //     toWei: (amount, decimals) => {
@@ -7,7 +9,7 @@ export const contractAddress  = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
 //         return ethers.formatUnits(amount, decimals).toString()
 //     },
 // }
-export const abi = [
+export const abi : Abi = [
   {
     inputs: [{ internalType: "address", name: "priceFeed", type: "address" }],
     stateMutability: "nonpayable",
